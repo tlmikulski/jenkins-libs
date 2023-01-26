@@ -1,3 +1,3 @@
-def call(String name) {
-    currentBuild.displayName = name
+def call(Map config) {
+    currentBuild.displayName = ${config.name}
 }
