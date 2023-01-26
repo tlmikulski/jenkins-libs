@@ -1,3 +1,3 @@
 def call(Map config) {
-    currentBuild.displayName = ${config.name}
+    currentBuild.displayName = config.name
 }
