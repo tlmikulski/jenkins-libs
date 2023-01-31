@@ -1,0 +1,7 @@
+servers:
+ nexus:
+  url: "https://nexus.local"
+
+tools:
+ jdk:
+   path: "/opt/java/1.8"
