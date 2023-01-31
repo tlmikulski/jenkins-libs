@@ -1,4 +1,4 @@
 def call() {
-  def cfg = libraryResource '../resources/config.json'
+  def cfg = libraryResource 'config.json'
   echo cfg
 }
