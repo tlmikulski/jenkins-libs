@@ -6,5 +6,5 @@ class Config {
 }
 
 def call() {
-  return new Config().getUrl()
+  echo "${new Config().getUrl()}"
 }
