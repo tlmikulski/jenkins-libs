@@ -5,6 +5,6 @@ class Config {
   }
 }
 
-def call {
+def call() {
   return new Config().getUrl()
 }
