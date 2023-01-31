@@ -1,3 +1,3 @@
-final class Config {
-    const url = "https://jenkinz.lokal"
+class Config {
+    final String url = "https://jenkinz.lokal"
 }
