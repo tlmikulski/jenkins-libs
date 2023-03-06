@@ -1,0 +1,5 @@
+repos:
+  - name: repo1
+    url: github.com:aws/aws-cli.git
+  - name: repo2
+    url: github.com:php/php-src.git
