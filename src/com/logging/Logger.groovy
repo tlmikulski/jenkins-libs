@@ -12,5 +12,3 @@ class Logger {
         return this.logs
     }
 }
-
-return this
