@@ -4,7 +4,7 @@ def call(configFile) {
   def params = []
 
   cfgParams.each {
-    params.add(booleanParam(name: "BUILD_${it}", defaultValue: "${it.checked}", description: "${it.desc}"))
+    params.add(booleanParam(name: "BUILD_${it}", defaultValue: "Abc", description: "${it.desc}"))
   }
 
   properties([parameters (params)])
