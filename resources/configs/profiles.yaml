@@ -1,0 +1,5 @@
+profiles:
+  frontend:
+    - dev
+    - stag
+    - prod
