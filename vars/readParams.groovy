@@ -3,8 +3,8 @@ def call(configFile) {
   def cfgParams = readYaml text: libParams
   def params = []
 
-  cfgParams.each {
-    params.add(booleanParam(name: "BUILD_${it}", defaultValue: "Abc", description: "${it.desc}"))
+  cfgParams.each { key, props ->
+    params.add(booleanParam(name: "BUILD_${key}", defaultValue: "${props.checked}", description: "${props.desc}"))
   }
 
   properties([parameters (params)])
