@@ -1,9 +1,9 @@
 dev:
-  desc: 'Dev param'
+  desc: Dev param
   checked: true
 stag:
-  desc: 'Stag param
+  desc: Stag param
   checked: true
 prod:
-  desc: 'Prod param'
+  desc: Prod param
   checked: false
