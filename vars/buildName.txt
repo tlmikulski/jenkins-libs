@@ -1,7 +1,6 @@
 
-# Set build display name
-
-This is **bold** desc.
-
-This is not.
-
+<p>Set build name</p>
+Parameters:
+<ul>
+ <li>name - speaks for itself :)</li>
+</ul
