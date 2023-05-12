@@ -6,15 +6,15 @@ def call(configFile) {
   cfgParams.each { key, props ->
     switch(props.type) {
       case 'booleanParam':
-        params.add(booleanParam(name: props.name, defaultValue: props.defaultValue, description: props.description))
+        params.add(booleanParam(name: key, defaultValue: props.defaultValue, description: props.description))
       break
 
       case 'string':
-        params.add(string(name: props.name, defaultValue: props.defaultValue, description: props.description, trim: props.trim))
+        params.add(string(name: key, defaultValue: props.defaultValue, description: props.description, trim: props.trim))
       break
 
       case 'choice':
-        params.add(choice(name: props.name, choices: props.choices, description: props.description))
+        params.add(choice(name: key, choices: props.choices, description: props.description))
       break
     }
   }
