@@ -14,7 +14,7 @@ def call(configFile) {
       break
 
       case 'choice':
-        params.add(string(name: key, value: 'hoice4'))
+        params.add(string(name: key, value: props.choices.get(1)))
       break
     }
   }
