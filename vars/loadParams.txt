@@ -1,0 +1,20 @@
+Load params from directory configs, you need to specify name without ext. All properties for specific types are required.
+YAML example for all supported types:
+<pre>
+param_1:
+ type: "string"
+ defaultValue: "some value"
+ description: "some description"
+ trim: true
+param_2:
+ type: "booleanParam"
+ defaultValue: true
+ description: "some bool description"
+param_3:
+ type: "choice"
+ description: "some choices description"
+ choices:
+ - "value_1"
+ - "value_2"
+ - "value_3"
+</pre>
