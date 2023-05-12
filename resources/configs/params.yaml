@@ -1,9 +1,25 @@
-dev:
-  desc: Dev param
-  checked: true
-stag:
-  desc: Stag param
-  checked: true
-prod:
-  desc: Prod param
-  checked: false
+stringTrim:
+  type: "string"
+  description: "Trim desc"
+  defaultValue: "String def value"
+  trim: true
+stringNoTrim:
+  type: "string"
+  description: "No trim desc"
+  defaultValue: "String def2 value"
+  trim: false
+booleanTrue:
+  type: "booleanParam"
+  description: "Bool param"
+  defaultValue: true
+booleanFalse:
+  type: "booleanParam"
+  description: "Bool false param"
+  defaultValue: false
+manyChoices:
+  type: "choice"
+  description: "Choices desc"
+  choices:
+  - "choice1"
+  - "choice2"
+  - "choice3"
