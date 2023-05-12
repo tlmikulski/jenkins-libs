@@ -14,7 +14,7 @@ def call(configFile) {
       break
 
       case 'choice':
-        params.add(choice(name: key, choice: 'hoice4'))
+        params.add(string(name: key, choice: 'hoice4'))
       break
     }
   }
